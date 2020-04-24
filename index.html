@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="css/fw.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<script type="text/javascript" src="form.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+<body>
+	<div class="main mar0">
+		<div class="nav">
+			<h1>Registration Form</h1>
+		</div>
+		<h6>*Mandatory Field</h6>
+		<form name="myform" action="action.html" onsubmit="return validateform()" method="post">
+			<div class="center mar0 over">
+				<h2>Personal Information</h2>
+				<div class="up">	
+					<div class="_50 over">
+						<h4>Last name<span>*</span></h4>
+						<input id="lname" type="text"  placeholder="last name">	
+						<h4><span class="lnr lnr-phone-handset"></span>Phone number<span>*</span></h4>
+						<input id="phone" type="phone" name="phnnum" placeholder="xx-xxxx-xxxx">
+						<h4><span class="lnr lnr-envelope"></span>Email address<span>*</span></h4>
+						<input id="email" type="email" name="email" placeholder="e.g hello@gmail.com">
+						<h4>Password<span>*</span></h4>
+						<input id="password" type="password" name="password" placeholder="***********" >
+					</div>
+					<div class="_50 over">
+						<h4>First name<span>*</span></h4>
+						<input id="fname" type="text" placeholder="first name">	
+						<h4><span class="lnr lnr-phone"></span>Alternate number</h4>
+						<input id="number" name="phone" placeholder="xx-xxxx-xxxx">
+						<h4><span class="lnr lnr-calendar-full"></span>Date of birth<span>*</span></h4>
+						<input id="date" type="date" name="date" placeholder="e.g 01/01/2019">
+						<h4>Gender<span>*</span></h4>
+						<label for="gen">Male:</label>
+						<input id="gen" type="radio" name="gender">
+						<label for="gen">Female:</label>
+						<input id="gen" type="radio" name="gender">
+						<label for="gen">Other:</label>
+						<input id="gen" type="radio" name="gender">
+					</div>
+				</div>
+			</div>
+			
+			<div class="center lower mar0 over">
+				<h2>Location</h2>
+				<div class="up over">
+					<div class="_50 over">
+						<h4><span class="lnr lnr-home"></span>Address<span>*</span></h4>
+						<input id="address" type="address" name="address" placeholder="Address">	
+						<h4>Permanent Address<span>*</span></h4>
+						<input id="paddress" type="address" name="pemadd" placeholder="">
+						<h4><span class="lnr lnr-map-marker"></span>State<span>*</span></h4>
+						<input id="state" type="text" name="state" placeholder="e.g uttar Pradesh">
+					</div>
+					<div class="_50 over">
+						<h4><span class="lnr lnr-apartment"></span>City<span>*</span></h4>
+						<input id="city" type="text" name="city" placeholder="e.g Ghaziabad">	
+						<h4>Locality/town<span>*</span></h4>
+						<input id="locality" type="address" name="town" placeholder="">
+						<h4>I agree to terms and conditions</h4>
+						<input id="button" type="checkbox"><span>*</span>
+						<button id="button" type="submit">Submit</button>
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

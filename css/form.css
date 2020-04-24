@@ -1,0 +1,130 @@
+
+h1{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Tenor Sans', sans-serif;
+}
+h2{
+	color: black;
+	font-size: 26px;
+	font-weight: 400;
+	background-color: #5a5a645c;
+	width: 35%;
+}
+h4{
+	color: black;
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 4px;
+}
+h6{
+	float: right;
+	color: red;
+}
+.up{
+	margin-top: -31px;
+}
+.lower{
+	margin-top: 50px;
+}
+.main{
+	font-family: "poppins", sans-srif;
+	height: 100%;
+}
+.nav{
+	text-transform: uppercase;
+	padding:3px;
+	text-align: center;
+	background-color: #00000026;
+}
+button{
+	border-color: #a1ade117;
+	padding: 4px;
+    padding-right: 7px;
+    background-color: #1640ff63;
+    border-radius: 24px;
+}
+button:hover{
+	transform: scaleX(1.1);
+	transition: 0.7s ease;
+}
+span{
+	color: red;
+}
+#gen{
+	margin-top: 1%;
+}
+.main{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("https://images.unsplash.com/photo-1501536563292-5d56009a5942?ixlib=rb-1.2.1&auto=format&fit=crop&w=1960&q=80");
+}
+.center{
+	width: 80%;
+	margin-left: 10%;
+}
+input{
+	color: white;
+	border-radius: 24px;
+	border-color: #959ca3ab;
+	background-color: transparent;
+	padding: 1%;
+	padding-right: 56%;
+}
+input:hover{
+	transition: 0.7s ease;
+	transform: scaleY(1.2);
+}
+@media only screen and (max-width: 1024px) and (min-width: 541px){
+	input{
+		padding: 1%;
+		padding-right: 19%;
+	}
+	h2{
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: #5a5a645c;
+	width: 50%;
+}
+h1{
+	font-size: 20px;
+	font-weight: 700;
+}
+/*
+	.main{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("https://images.unsplash.com/photo-1509803874385-db7c23652552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+*/
+
+}
+@media only screen and (max-width: 540px) and (min-width: 320px){
+	label{
+		float: left;
+		padding: 1%;
+	}
+	#gen{
+		margin-top: 10px;
+	}
+	h2{
+	color: black;
+	font-size: 15px;
+	font-weight: 400;
+	background-color: #5a5a645c;
+	width: 42%;
+}
+h1{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*.main{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("https://images.unsplash.com/photo-1440407876336-62333a6f010f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80");
+}
+
+*/
+}
